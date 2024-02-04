@@ -1,47 +1,42 @@
-body{
-    
-    background-color: darkgray;
+
+@font-face{
+  font-family: 'Header_1';
+  src: url(files/fonts/tf2/TF2Build.woff);
 }
 
-#content p {color: teal;
-}
-/* this is a comment in css */
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-    body{
-        font-family: 'Roboto';
-        background-color: #cca29c;
-    }
-    .media{
-        color: darkolivegreen;
-        font-size: 16;
-    }
-    #feature{
-        font-weight: bold;
-    }
-
-    nav a{
-        letter-spacing: 5px;
-    }
-
-h1, nav{
-    text-align: center;
+.Header_1{
+  font-family: 'Header_1';
+  text-align: center;
+  font-size: 30px;
 }
 
-#wrapper{
-    width: 90%;
-    margin-left:auto;
+@font-face {
+  font-family: 'caption';
+  src: url(files/fonts/tf2/TF2secondary.woff);
 }
-.banner{
-    background-image: url(../funy.png);
-    width: 100%;
-    height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border: 40px;
+
+.caption{
+  font-family: 'caption';
+  text-align: center;
 }
-.banner-text{
-    padding-top: 15px;
-    
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    z-index: 1;
+}
+
+html {
+  background-image: url(files/images/home_page.png), url(files/images/texture.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat, repeat;
+}
+
+
+
+.cursor {
+  cursor: url('/files/images/pointer.png'), auto;
+  cursor: url('/files/images/pointer2.png') cell;
 }
