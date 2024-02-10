@@ -32,6 +32,7 @@ html {
   background-image: url(files/images/home_page.png), url(files/images/texture.jpg);
   background-size: 100%;
   background-repeat: no-repeat, repeat;
+  background-position-y: 90px;
 }
 
 
@@ -39,4 +40,9 @@ html {
 .cursor {
   cursor: url('/files/images/pointer.png'), auto;
   cursor: url('/files/images/pointer2.png') cell;
+}
+
+#despair {
+  height: 212px;
+  width: 212px;
 }
