@@ -10,7 +10,7 @@ body {
 /* this is a comment in css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-body {
+head {
   font-family: 'Roboto';
   background-color: #cca29c;
 }

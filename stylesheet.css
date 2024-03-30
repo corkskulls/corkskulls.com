@@ -1,4 +1,4 @@
-
+ 
 @font-face{
   font-family: 'Header_1';
   src: url(files/fonts/tf2/TF2Build.woff);
@@ -20,26 +20,18 @@
   text-align: center;
 }
 
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    z-index: 1;
-}
-
 html {
-  background-image: url(files/images/home_page.png), url(files/images/texture.jpg);
-  background-size: 100%;
+  background-image: url(files/images/handshake.png), url(files/images/backgrounds/bg.png);
+  background-size: 60%, 5%;
   background-repeat: no-repeat, repeat;
-  background-position-y: 90px;
+  background-position: center;
+  top: 20%;
 }
 
 
 
 .cursor {
   cursor: url('/files/images/pointer.png'), auto;
-  cursor: url('/files/images/pointer2.png'), pointer;
 }
 .sticky-footer {
   position: fixed;
