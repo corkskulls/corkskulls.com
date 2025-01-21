@@ -1,0 +1,78 @@
+@font-face{
+  font-family: 'Header_1';
+  src: url(/fonts/Monsterrat/Montserrat-Medium.ttf);
+}
+
+.Header_1{
+  font-family: 'Header_1';
+  text-align: center;
+  font-size: 30px;
+}
+
+@font-face {
+  font-family: 'caption';
+  src: url(/fonts/Monsterrat/Montserrat-LightItalic.ttf);
+}
+
+.caption{
+  font-family: 'caption';
+  text-align: center;
+}
+
+html {
+  background-image: url(/images/bg.png);
+  background-size: 5%;
+  background-repeat: repeat;
+}
+
+html, body {
+  cursor:url(/cursors/cursor.png),auto;
+}
+
+.sticky-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 120%;
+}
+
+a {
+  cursor: url(/cursors/pointer.png), pointer;
+}
+
+a.nav-link:link
+{
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: #fb3f00;
+   text-decoration: none;
+}
+#despair {
+  height: 212px;
+  width: 212px;
+  cursor: url(/cursors/pointer.png), pointer;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+a:hover{
+    color:inherit;
+}

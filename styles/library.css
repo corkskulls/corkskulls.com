@@ -1,0 +1,24 @@
+html {
+  background-image: url("/files/images/brick-edge.png"), url("/files/images/brick-edge-right.png"), url("/files/images/red_brick.png");
+  background-repeat: repeat-y, repeat-y, repeat;
+  background-position: left, right, center;
+}
+
+.forefront-element {
+  -webkit-transform: translateZ(999px) scale(.7);
+  transform: translateZ(999px) scale(.7);
+  z-index: 1;
+}
+
+.base-element {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  z-index: 4;
+}
+
+.background-element {
+  -webkit-transform: translateZ(-999px) scale(2);
+  transform: translateZ(-999px) scale(2);
+  z-index: 3;
+
+}
