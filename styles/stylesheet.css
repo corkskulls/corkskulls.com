@@ -21,9 +21,11 @@
 
 html {
   background-image: url(/images/bg.png);
-  background-size: 5%;
+  background-size: 50px;
   background-repeat: repeat;
 }
+
+
 
 .sticky-header {
   position: fixed;
@@ -59,7 +61,6 @@ a.nav-link:active
 #despair {
   height: 212px;
   width: 212px;
-  cursor: url(/cursors/pointer.png), pointer;
 }
 a{
     color:inherit;
