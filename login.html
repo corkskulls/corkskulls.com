@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link href="/styles/stylesheet.css" rel="stylesheet" type="text/css" media="all">
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form class="login_game" id="loginForm" action="/submit_form" name="login1" method="post">
+            <div class="imgcontainer">
+              <img src="/images/awful_cube_of_pain_and_despair.gif" alt="Avatar" class="avatar">
+            </div>
+          
+            <div class="login">
+              <label for="use"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="use" required>
+            <br/>
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+            <br/>
+                <label>
+                <input type="checkbox" name="remember"> Remember me
+                </label>
+                <br>
+              <button type="submit">Login</button>
+            </div>
+          
+            <div class="container">
+              <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+          </form>
+    </body>
+</html>

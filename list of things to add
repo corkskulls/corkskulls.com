@@ -2,3 +2,36 @@ skeleton cursor
 scrolling
 review method
 chat room/social media
+
+
+login game stuff:
+
+First day on the job at a new company, and you need to sign into your companies website to do your work.
+You are given an ID, but dont have a password. Thats because you need to make one silly!! and the rabbit hole ensues.
+
+Final game is given in the form of a fake OS with files and a browser, for now we just make the web pages. 
+
+-Given an email or something about your first day in your personal email, addressed to your first initial and last name. You must use the application ID from when you applied, which was through a SafeTech account, and then create your employee profile. 
+-Need to find username by entering email and the date of account creation, found in email.
+-Need to enter security question, found by clues in the name of your email or something
+-typing too fast or slow resets you
+-
+-use username and email to reset password 
+-password cannot contain any numbers from last password, or your name, or anything like that, some crazy BS.
+-create profile, get ID
+-main corpo Website has portals for working website for whatever your job is, email, employee account, and maybe a couple third party websites that the company works with
+-Forgot password form requires your username and work email
+-You dont have either, you have an ID.
+-you can navigate to a page to set up your new account using the employee ID, first name, and last name.
+-there is a "staff" page on the website
+-Staff referred to by FIRST name and LAST initial.
+-last name is found by trial and error, as you only have your first initial and last name.
+-rePatcha stuff is bad, with horrible instructions.
+-
+-confirmation email sent 
+open 
+
+
+
+
+
